@@ -18,7 +18,8 @@ body {
 }
 
 .lp {
-  width: min(70%, 1024px);
+  width: 70%;
+  max-width: 717px;
   margin-inline: auto;
   overflow: hidden;
   background: #fbf4e9;
