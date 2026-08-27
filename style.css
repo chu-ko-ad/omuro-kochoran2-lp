@@ -18,7 +18,7 @@ body {
 }
 
 .lp {
-  width: min(100%, 1024px);
+  width: min(70%, 1024px);
   margin-inline: auto;
   overflow: hidden;
   background: #fbf4e9;
@@ -71,6 +71,7 @@ body {
 
 @media (max-width: 600px) {
   .lp {
+    width: 100%;
     box-shadow: none;
   }
 }
