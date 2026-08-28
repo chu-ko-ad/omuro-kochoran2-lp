@@ -84,6 +84,21 @@ body {
   outline-offset: 3px;
 }
 
+.final-cta {
+  position: absolute;
+  z-index: 1;
+  left: 16%;
+  top: 77%;
+  width: 68%;
+  height: 8%;
+  border-radius: 8px;
+}
+
+.final-cta:focus-visible {
+  outline: 4px solid #28164c;
+  outline-offset: 4px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
