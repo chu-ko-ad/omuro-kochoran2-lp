@@ -100,6 +100,21 @@ body {
   outline-offset: 4px;
 }
 
+.lineup-cta {
+  position: absolute;
+  z-index: 1;
+  left: 14.5%;
+  top: 90.9%;
+  width: 71.5%;
+  height: 6.3%;
+  border-radius: 8px;
+}
+
+.lineup-cta:focus-visible {
+  outline: 4px solid #d3a94b;
+  outline-offset: 4px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
