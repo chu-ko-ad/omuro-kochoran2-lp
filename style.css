@@ -58,6 +58,32 @@ body {
   outline-offset: 4px;
 }
 
+.product-link {
+  position: absolute;
+  z-index: 1;
+  left: 50.1%;
+  width: 44%;
+  height: 5.5%;
+  border-radius: 8px;
+}
+
+.product-link--1 {
+  top: 29.6%;
+}
+
+.product-link--2 {
+  top: 59.2%;
+}
+
+.product-link--3 {
+  top: 87.8%;
+}
+
+.product-link:focus-visible {
+  outline: 4px solid #d3a94b;
+  outline-offset: 3px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
